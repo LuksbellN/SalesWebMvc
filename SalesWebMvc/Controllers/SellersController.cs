@@ -46,7 +46,7 @@ namespace SalesWebMvc.Controllers
         {
             if (id == null)
             {
-                return RedirectToAction(nameof(Error), new { message = "Id not provided" } );
+                return RedirectToAction(nameof(Error), new { message = "Id not provided" });
             }
 
             var obj = _sellerService.FindById(id.Value);
@@ -121,8 +121,9 @@ namespace SalesWebMvc.Controllers
 
         public IActionResult Error(string message)
         {
-            var viewModel = new ErrorViewModel {
-                Message = message, 
+            var viewModel = new ErrorViewModel
+            {
+                Message = message,
                 RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier
             };
             return View(viewModel);
