@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
+
 namespace SalesWebMvc.Models
 {
     public class Seller
@@ -54,11 +55,6 @@ namespace SalesWebMvc.Models
         public void RemoveSales(SalesRecord sr)
         {
             Sales.Remove(sr);
-        }
-
-        public double TotalSales(DateTime initial, DateTime final)
-        {
-            return Sales.Where(sr => sr.Date >= initial && sr.Date <= final).Sum(sr => sr.Amount);
         }
 
     }
