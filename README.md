@@ -1,6 +1,6 @@
 # SalesWebMvc
 
-## Projeto de área restrita contendo vendedores, departamentos e vendas utilizando ASP.NET, criado junto com o professor Nelio Alves do curso: https://www.udemy.com/course/programacao-orientada-a-objetos-csharp/ 
+## Projeto de área restrita contendo vendedores, departamentos e vendas utilizando ASP.NET MVC, criado junto com o professor Nelio Alves do curso: https://www.udemy.com/course/programacao-orientada-a-objetos-csharp/ 
 
 # Projeto
 Projeto foi realizado no modelo ASP.NET utilizando Models, Views e Controllers, também foi utilizado conceitos da programação orientada a objetos com o Entity Framework para as conexões/alterações no banco de dados<br>
